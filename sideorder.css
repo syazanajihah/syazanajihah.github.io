@@ -15,11 +15,11 @@ body{
 .row{
   text-align: center;
   margin-left: 60px;
+  background-color: white;
 }
 
 .container{
   padding: 20px;
-  background-color: white;
   opacity: 0.9;
   width: 95%;
   height: 100%;
@@ -94,11 +94,12 @@ body{
 
 /* Footer */
 .footer{
+  margin-top:650px;
   padding:10px;
-	font-size:14px;
-	text-align: center;
-	background: #594848;
-	color:white;
-	font-family: Arial;
-	letter-spacing: right;
+  font-size:14px;
+  text-align: center;
+  background: #594848;
+  color:white;
+  font-family: Arial;
+  letter-spacing: right;
 }
