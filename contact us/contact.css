@@ -1,0 +1,199 @@
+.tabcontent {   /* Style the tab content (and add height:100% for full page content) */
+  color: white;
+  padding: 100px 20px;
+  height: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+/* section top */
+.container{
+  position: relative;
+  text-align: center;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  border-radius: 20%;
+  opacity: 0.8;
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  font-family: 'Raleway';
+}
+/* section middle */
+.middle{    /* Three columns side by side */
+  padding-left: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #d6d6c2;
+  border-radius: 10px;
+}
+.mid{
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  opacity: 0.95;
+
+}
+.textarea{
+  color: brown;
+  margin-left: 2%;
+  margin-right: 5%;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  text-align:justify;
+}
+.service{
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 3px 2px black;
+  border-top: 5px;
+  border-top-style: ridge;
+  margin-right: 2%;
+  padding-top: 20px;
+}
+.row{
+  margin-left: 2%;
+  margin-top: 5%;
+}
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+@media screen and (max-width: 650px) {    /* Display the columns below each other instead of side by side on small screens */
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+.card {     /* Add some shadows to create a card effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    position: relative;
+    background-color: white;
+}
+.image{
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.container2 h2{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.card:hover image{opacity: 0.3;}
+.card:hover h2{opacity:1;}
+h2{
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.container2 {   /* Some left and right padding inside the container */
+    padding: 0 16px;
+    background-color: white;
+    color: black;
+}
+.container2::after, .row::after {   /* Clear floats */
+    content: "";
+    clear: both;
+    display: table;
+}
+.title {color: grey;}
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+.button:hover {background-color: #555;}
+.location{
+  color: black;
+}
+.borderlocate{
+  border: 1px solid brown;
+  width: 50%;
+}
+/* section bottom */
+.bottom{
+  padding: 20px;
+  background-color: white;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  color: brown;
+  opacity: 0.9;
+}
+.list-text{
+  font-size: 1.0rem;
+  list-style-type: none;
+}
+.list-text-item{
+  padding-bottom: .30rem;
+  margin-bottom: 1rem;
+  font-style: bold;
+}
+.list-text-item p{font-size: 18px;}
+.righttext{
+  padding-right: 5%;
+  clear: both;
+}
+.text1, .text2{
+  border-radius: none;
+  font-size: 10px;
+  outline: none;
+  margin-bottom: 3px;
+  box-sizing: border-box;
+  padding: 10px 5px;
+}
+.submitbtn{
+  width: 30%;
+  color: brown;
+  background-color: #ffc1cc;
+  cursor: pointer;
+  border: none;
+}
+.socialmedia{
+  text-align: center;
+}
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover{
+  opacity: 0.7;
+}
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+  background: #125688;
+  color: white;
+}
