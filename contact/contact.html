@@ -74,7 +74,6 @@
                     <h2>Zahirah Zamri</h2>
                     <p class="title">CEO; Founder</p>
                     <p>zahirah@gmail.com</p>
-                    <p><button class="button">Contact</button></p>
                   </div>
               </div>
             </div>
@@ -86,7 +85,6 @@
                   <h2>Syaza Najihah</h2>
                   <p class="title">Art Director</p>
                   <p>syazanajihah@gmail.com</p>
-                  <p><button class="button">Contact</button></p>
                 </div>
               </div>
             </div>
@@ -98,15 +96,28 @@
                     <h2>Atiqah Hazirah</h2>
                     <p class="title">Designer</p>
                     <p>atiqahhazirah@gmail.com</p>
-                    <p><button class="button">Contact</button></p>
                   </div>
               </div>
             </div>
           </div>
           <div class="location">
             <h3>Locate Us</h3>
-            <div class="borderlocate">
-
+            <div id="map">
+              <script>
+              // Initialize and add the map
+              function myMap() {
+               // The location of IIUM
+               var iium = {lat: 3.250568, lng: 101.734672};
+               // The map, centered at IIUM
+               var map = new google.maps.Map(
+                   document.getElementById('map'), {zoom: 4, center: iium});
+               // The marker, positioned at Uluru
+               var marker = new google.maps.Marker({position: iium, map: map});
+              }
+            </script>
+              <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCb6cHLgYm2Jg1Fj9a2AqmyqHeIDzTV0-8&callback=initMap">
+              </script>
             </div>
           </div>
         </div>
