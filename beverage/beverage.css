@@ -46,13 +46,14 @@
 }
 .drink{
 	margin: 5px;
-	border: 5px solid #ccc;
-  border-style: double;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); /* Add some shadows to create a card effect */
+	border: 2px solid #ccc;
 	float: left;
 	width:45%;
   position: relative;
   margin-left: 2%;
   margin-right: 2%;
+  margin-bottom: 2%;
 }
 .drink img{
 	width: 50%;
@@ -67,29 +68,28 @@
   color: white;
 }
 .textdrink p{
-  font-family: fantasy;
+  font-family: Palatino;
+  font-size: 20px;
+  font-weight: bold;
   letter-spacing: 1px;
 }
 .imgdrink{
   width: 50%;
   height: auto;
 }
-.drink .orderbtn{
-  position: absolute;
-  top: 50%; left:50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
+.button{
+  margin-top: 2%;
+  margin-bottom: 15%;
 }
-.drink .orderbtn:hover{
+.orderbtn{
+  float: right;
   background-color: green;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 37.5%;
 }
 /* Footer */
 .footer{
