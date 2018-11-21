@@ -36,7 +36,6 @@
   margin-top: 2%;
   margin-bottom: 2%;
   opacity: 0.95;
-
 }
 .textarea{
   color: brown;
@@ -112,11 +111,14 @@ h2{
     display: table;
 }
 .title {color: grey;}
-.location{
+.location h3{
   color: black;
+  font-size: 25px;
+  margin-left: 43%;
 }
 #map{
-  border: 1px solid brown;
+  margin-left: 23%;
+  border: 2px solid brown;
   width: 50%;
   height: 400px;
   background-color: grey;
@@ -146,23 +148,29 @@ h2{
   padding-right: 5%;
   clear: both;
 }
-.text1, .text2{
+.text1,.text2{
   border-radius: none;
   font-size: 10px;
   outline: none;
   margin-bottom: 3px;
-  box-sizing: border-box;
   padding: 10px 5px;
 }
 .submitbtn{
   width: 30%;
+  padding: 15px;
   color: brown;
   background-color: #ffc1cc;
   cursor: pointer;
   border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.submitbtn:hover{
+  background-color:#d6d6c2;
 }
 .socialmedia{
-  text-align: center;
+  display: block;
+  margin-left: 5%;
 }
 .fa{
   padding: 20px;
@@ -171,9 +179,6 @@ h2{
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-}
-.fa:hover{
-  opacity: 0.7;
 }
 .fa-facebook{
   background: #3B5998;
