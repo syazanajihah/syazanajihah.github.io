@@ -22,19 +22,19 @@
     </h1>
     <!-- Navigation -->
     <ul>
-      <li> <a href="">Home</a> </li>
+      <li> <a href="syazanajihah.github.io/index.html">Home</a> </li>
       <li class="dropdown">
         <a href="javascript:void(0)" class="dropbtn">Menu</a>
         <div class="dropdown-content">
-          <a href="pizza.html">Pizza</a>
-          <a href="beverage.html">Beverages</a>
+          <a href="syazanajihah.github.io/pizza/pizza.html">Pizza</a>
+          <a href="syazanajihah.github.io/beverage/beverage.html">Beverages</a>
           <a href="#">Side orders</a>
           <a href="#">Combo</a>
         </div>
       </li>
       <li>
         <a href="aboutus.html">About us</a> </li>
-        <li> <a href="contact.html">Contact us</a> </li>
+        <li> <a href="syazanajihah.github.io/contact/contact.html">Contact us</a> </li>
         <li> <a href="#">Order Now</a></li>
         <div class="search-container">
           <form action="/action_page.php">
@@ -100,24 +100,11 @@
               </div>
             </div>
           </div>
+          <hr style="margin-right: 3%; margin-top:5%;">
           <div class="location">
             <h3>Locate Us</h3>
             <div id="map">
-              <script>
-              // Initialize and add the map
-              function myMap() {
-               // The location of IIUM
-               var iium = {lat: 3.250568, lng: 101.734672};
-               // The map, centered at IIUM
-               var map = new google.maps.Map(
-                   document.getElementById('map'), {zoom: 4, center: iium});
-               // The marker, positioned at Uluru
-               var marker = new google.maps.Marker({position: iium, map: map});
-              }
-            </script>
-              <script async defer
-              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCb6cHLgYm2Jg1Fj9a2AqmyqHeIDzTV0-8&callback=initMap">
-              </script>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.3994748623645!2d101.73248081380416!3d3.2504820534301313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc38c2f70795af%3A0xf808897bf1163a3!2sInternational+Islamic+University+Malaysia!5e0!3m2!1sen!2smy!4v1542811632437" width="560" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -129,34 +116,34 @@
             <div class="righttext" style="float:right;">
               <li class="list-text-item">
                 <p><b>Ask Questions</b></p>
-                <input class="text1" type="text" name="name" value="" placeholder="Name" >
+                <input class="text1" type="text" name="name" value="" placeholder="Name">
                 <input class="text1" type="text" name="email" value="" placeholder="Email" >
                 <br>
-                <input class="text2" type="text" name="message" value=""placeholder="Message" style="height: 200px; width: 100%;">
-                <button class="submitbtn" type="button" name="submit" onclick="myFunction()">Send</button>
+                <input class="text2" type="text" name="message" value=""placeholder="Message" style="height: 200px; width: 96%;">
+                <button class="submitbtn" type="submit" name="submit" onclick="myFunction()">Send</button>
               </li>
             </div>
             <div class="lefttext" style="float: left; margin-left: 2%;">
               <li class="list-text-item">
                 <p><b>Email</b></p>
                 <p>klatepizza@gmail.com</p>
-                <br>
                 <p><b>Customer services</b></p>
                 <p>1300-88-2345 (General Inquiries & Feedbacks)</p>
-                <br>
                 <p><b>Address</b></p>
-                <p>K'LatePizza Sdn Bhd</p>
+                <p>K'LatePizza Sdn Bhd, IIUM</p>
                 <p>Gombak, Wilayah Persekutuan Kuala Lumpur</p>
               </li>
+              <div class="socialmedia">
+                <div class="fa fa-facebook"></div>
+                <div class="fa fa-twitter"></div>
+                <div class="fa fa-instagram"></div>
+              </div>
             </div>
           </ul>
 
+
         </div>
-        <div class="socialmedia">
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-instagram"></a>
-        </div>
+
       </div>
     </div>
 
