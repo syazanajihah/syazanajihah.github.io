@@ -76,7 +76,7 @@
   width: 50%;
   height: auto;
 }
-.button{
+.beveragebtn{
   margin-top: 2%;
   margin-bottom: 5%;
 }
@@ -88,7 +88,7 @@
   cursor: pointer;
   border-radius: 10px;
   text-align: center;
-  margin-right: 36.5%;
+  margin-right: 37.5%;
 }
 /* Footer */
 .footer{
