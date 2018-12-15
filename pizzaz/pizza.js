@@ -1,25 +1,59 @@
-$(".orderthis").click(function(){
+$("#orderthis1").click(function(){
 	var order = $(this).val();
-	
-	if(order == 'Pepperoni'){
+	var add;
 
+	if(order == 'Pepperoni'){
+		add += order;
 		$('#showcart').html('Pepperoni');
 	}
-	else if (order == 'Meat-mania') {
+})
+
+$("#orderthis2").click(function(){
+	var order = $(this).val();
+	var add;
+
+	if (order == 'Meat-mania') {
+		add += order;
 		$('#showcart').html('Meat-mania');
 	}
-	else if (order == 'Meatasaurus') {
+})
+
+$("#orderthis3").click(function(){
+	var order = $(this).val();
+	var add;
+
+	if (order == 'Meatasaurus') {
+		add += order;
 		$('#showcart').html('Meatasaurus');
 	}
-	else if (order == 'Extravaganza') {
+})
+
+$("#orderthis4").click(function(){
+	var order = $(this).val();
+	var add;
+
+	if (order == 'Extravaganza') {
+		add += order;
 		$('#showcart').html('Extravaganza');
 	}
-	else if (order == 'Vegie-Galore') {
+})
+
+$("#orderthis5").click(function(){
+	var order = $(this).val();
+	var add;
+
+	if (order == 'Vegie-Galore') {
+		add += order;
 		$('#showcart').html('Vegie-Galore');
 	}
-	else if (order == 'Baked-Perfection') {
+})
+
+$("#orderthis6").click(function(){
+	var order = $(this).val();
+	var add;
+
+	if (order == 'Baked-Perfection') {
+		add += order;
 		$('#showcart').html('Baked-Perfection');
 	}
-
-
 })
