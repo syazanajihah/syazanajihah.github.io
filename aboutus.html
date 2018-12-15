@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="aboutus/aboutus.css">
+  <link rel="stylesheet" href="aboutus.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>KlatePizza:AboutUs</title>
@@ -24,43 +24,42 @@
 <title>AboutUs</title>
 
 <body>
-  <img class="logo1" src="aboutus/Logo.png" alt="">
-  <h1 class="site-heading">
-  <span class="site-heading-upper">YOUR FAVOURITE PIZZA</span>
-  <span class="site-heading-lower" >K'LATE PIZZA</span>
-  </h1>
+  <header>
 
-  <!-- Navigation -->
-  <ul>
-    <li> <a href="index.html">Home</a> </li>
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Menu</a>
-      <div class="dropdown-content">
-        <a href="pizza.html">Pizza</a>
-        <a href="beverage.html">Beverages</a>
-        <a href="sideorder.html">Side orders</a>
-        <a href="combo.html">Combo</a>
-      </div>
+        <img class="logo1" src="Logo.png" alt="">
+        <h1 class="site-heading">
+        <span class="site-heading-upper">YOUR FAVOURITE PIZZA</span>
+        <span class="site-heading-lower" >K'LATE PIZZA</span>
+        </h1>
+
+    <!-- Navigation -->
+    <ul>
+      <li> <a href="index.html">Home</a> </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Menu</a>
+        <div class="dropdown-content">
+          <a href="#">Pizza</a>
+          <a href="#">Beverages</a>
+          <a href="#">Side orders</a>
+          <a href="#">Combo</a>
+        </div>
       </li>
-      <li> <a href="aboutus.html">About us</a> </li>
-      <li> <a href="contact.html">Contact us</a> </li>
-      <li> <a href="#">Order Now</a></li>
-      <div class="search-container">
-      <form action="/action_page.php">
-      <input class="search" type="text" placeholder="Search.." name="">
-      <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-     </div>
-    </ul>
-<h1 class="header">ABOUT US</h1>
+
+      <li>
+        <a href="aboutus/aboutus.html">About us</a> </li>
+      <li> <a href="#">Contact us</a> </li>
+
+    </header>
+
+<h1 class="header">Know Us !</h1>
 <div id="accordion">
   <h3>About Us</h3>
-  <div>
+  <div class="panel">
     <p class="au"><strong>This company, K'late Pizza has been operated online since a year ago and now there is one
-    physical store available in Malaysia, located in Gombak, Selangor. Hosted by 3 young women, Nur Zahirah bt Zamri,
+    physical store available in Malaysia, located in Gombak, Selangor. Hosts by 3 young women, Nur Zahirah bt Zamri,
     Nursyaza Najihah bt Zubir and Atiqah Hazirah bt Akmaluddin, this pizza company has achieved several awards in 2018,
     proving that K'late Pizza is one of the Malaysians' choice along
-with the other famous pizza company.</strong></p>
+   with the other famous pizza company.</strong></p>
    <p class="au"><strong>K'late Pizza provides variety of pizzas, beverages, side orders and combos for customers
    to choose from. There are 6 pizza flavours which are Pepperoni, Meat mania, Meatasaurus, Extravaganza, Vegie Galore and
    Baked Perfection.These pizzas came in 4 sizes, personal, small, medium and large. Customers can also choose their preferred
@@ -107,6 +106,10 @@ with the other famous pizza company.</strong></p>
 
 </div>
 
-
+<footer class="footer text-faded text-center py-5">
+  <div class="container4">
+    <p class="m-0 small">Copyright &copy; K'Late Pizza 2018</p>
+  </div>
+</footer>
 </body>
 </html>
