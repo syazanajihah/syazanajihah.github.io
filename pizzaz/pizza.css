@@ -130,7 +130,7 @@
 .ordernow{
   margin-right: 38%;
 }
-.orderthis{
+.ordernow button{
   float: right;
   text-transform: uppercase;
   color: white;
