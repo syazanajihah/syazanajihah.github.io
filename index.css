@@ -115,7 +115,7 @@ li.dropdown {
 }
 
 .mySlides {display: none}
-img {
+.slides {
   vertical-align: middle;
   height:400px;
   width: 100%;
