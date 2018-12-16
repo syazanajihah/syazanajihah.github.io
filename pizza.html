@@ -41,7 +41,7 @@
     </ul></center>
 
 
-    <!-- DROPDOWN CONTENT 1 - PIZZA (Catalogue A) -->
+      <!-- DROPDOWN CONTENT 1 - PIZZA (Catalogue A) -->
     <div id="pizza"class="tabcontent">
       <!-- Pizza Header-->
       <div class="pizzaheader">
@@ -82,14 +82,14 @@
             <div class="cardpizza">
               <h4>Pepperoni</h4>
               <div class="content">
-                  <img src="pizzaz/pizza1.jpeg" alt="Pepperoni" style="max-width:71%;">
+                  <img src="pizza1.jpeg" alt="Pepperoni" style="max-width:71%;">
                   <div class="container3">
                     <div class="field">
                       <p>Ingredients: Marinara pepperoni, tomato and mushroom</p>
                     </div>
                   </div>
                   <div class="ordernow">
-                    <button type="button" id="orderthis1" name="button" value="Pepperoni">Order This</button>
+                    <button type="button" id="orderthis1" name="button" value="Add to cart" onclick="AddtoCart('Pepperoni','Pizza',18.00)">Order This</button>
                   </div>
                 </div>
               </div>
@@ -98,14 +98,14 @@
             <div class="cardpizza">
               <h4>Meat Mania</h4>
               <div class="content">
-                <img src="pizzaz/pizza6.jpeg" alt="Meat-mania" style="max-width:80%;">
+                <img src="pizza6.jpeg" alt="Meat-mania" style="max-width:80%;">
                 <div class="container3">
                   <div class="field">
                     <p>Ingredients: Pepperoni, sausage, grilled chicken and mushroom</p>
                   </div>
                 </div>
                 <div class="ordernow">
-                  <button type="button" id="orderthis2" name="button" value="Meat-mania">Order This</button>
+                  <button type="button" id="orderthis2" name="button" value="Add to cart" onclick="AddtoCart('Meat-mania','Pizza',28.00)">Order This</button>
                 </div>
               </div>
             </div>
@@ -117,14 +117,14 @@
             <div class="cardpizza">
               <h4>Meatasaurus</h4>
               <div class="content">
-                <img src="pizzaz/pizza9.jpeg" alt="Meatasaurus" style="max-width:80%;">
+                <img src="pizza9.jpeg" alt="Meatasaurus" style="max-width:80%;">
                 <div class="container3">
                   <div class="field">
                     <p>Ingredients: Meats, parmesan cheese, chillies, olives</p>
                   </div>
                 </div>
                 <div class="ordernow">
-                  <button type="button" id="orderthis3" name="button" value="Meatasaurus">Order This</button>
+                  <button type="button" id="orderthis3" name="button" value="Add to cart" onclick="AddtoCart('Meatasaurus','Pizza',25.00)">Order This</button>
                 </div>
               </div>
             </div>
@@ -133,14 +133,14 @@
             <div class="cardpizza">
               <h4>Extravaganza</h4>
               <div class="content">
-                <img src="pizzaz/pizza2.jpeg" alt="Extravaganza" style="max-width:80%;">
+                <img src="pizza2.jpeg" alt="Extravaganza" style="max-width:80%;">
                 <div class="container3">
                   <div class="field">
                     <p>Ingredients: Thousand Island dressing, topped with sauerkraut, corned beef or pastrami, and Swiss cheese</p>
                   </div>
                 </div>
                 <div class="ordernow">
-                  <button type="button" id="orderthis4" name="button" value="Extravaganza">Order This</button>
+                  <button type="button" id="orderthis4" name="button" value="Add to cart" onclick="AddtoCart('Extravaganza','Pizza',22.00)">Order This</button>
                 </div>
               </div>
             </div>
@@ -153,14 +153,14 @@
             <div class="cardpizza">
               <h4>Vegie Galore</h4>
               <div class="content">
-                <img src="pizzaz/pizza8.jpeg" alt="Vegie-Galore" style="max-width:80%;">
+                <img src="pizza8.jpeg" alt="Vegie-Galore" style="max-width:80%;">
                 <div class="container3">
                   <div class="field">
                     <p>Ingredients: Alfredo sauce, spinach, mushrooms, cherry tomatoes and Asiago cheese</p>
                   </div>
                 </div>
                 <div class="ordernow">
-                  <button type="button" id="orderthis5" name="button" value="Vegie-Galore">Order This</button>
+                  <button type="button" id="orderthis5" name="button" value="Add to cart" onclick="AddtoCart('Vegie-Galore','Pizza',18.00)">Order This</button>
                 </div>
               </div>
             </div>
@@ -169,14 +169,14 @@
             <div class="cardpizza">
               <h4>Baked Perfection</h4>
               <div class="content">
-                <img src="pizzaz/pizza7.jpeg" alt="Baked-Perfection" style="max-width:80%;">
+                <img src="pizza7.jpeg" alt="Baked-Perfection" style="max-width:80%;">
                 <div class="container3">
                   <div class="field">
                     <p>Ingredients: Spinach, caramelized onion, grilled chicken and parmesan cheese</p>
                   </div>
                 </div>
                 <div class="ordernow">
-                  <button type="button" id="orderthis6" name="button" value="Baked-Perfection">Order This</button>
+                  <button type="button" id="orderthis6" name="button" value="Add to cart" onclick="AddtoCart('Baked-Perfection','Pizza',20.00)">Order This</button>
                 </div>
               </div>
             </div>
@@ -186,7 +186,7 @@
       <hr>
       <hr>
 
-      <td valign="top">
+        <td valign="top">
             <table cellpadding="4" cellspacing="4" border="1" id="orderedProductsTbl">
                 <thead>
                     <tr>
@@ -212,8 +212,8 @@
                     </tr>
                 </tfoot>
             </table>
-      </div>
 
+      </div>
 
     <!-- Footer -->
     <footer class="footer text-faded text-center py-5">
