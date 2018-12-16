@@ -10,7 +10,8 @@ body, html{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin: auto;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .hero-text {
   text-align: center;
