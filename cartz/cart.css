@@ -118,9 +118,13 @@ button:focus,input:focus {
     margin: 6px 0;
   }
 }
+#orderedProductsTbl{
+  background-color: #B0C4DE;
+  margin-left: 36.8%;
+  margin-bottom: 5%;
+}
 
-
-#checkout{margin-left: 37%; margin-right: 2%;}
+#checkout{margin-left: 88%; margin-top: 3%;}
 #checkout{
   color: #494949 ;
   text-transform: uppercase;
