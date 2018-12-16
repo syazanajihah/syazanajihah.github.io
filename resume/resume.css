@@ -25,7 +25,7 @@ body{
   border-radius: 30px;
 }
 .hihi{
-  background: url('back.jpg');
+  background: url('back.jpg') no-repeat;
   width: 100%;
   text-align: center;
   margin-left: auto;
