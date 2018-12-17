@@ -1,6 +1,38 @@
 *{
   box-sizing: border-box;
 }
+.tabcontent{
+  padding: 5%;
+  background-color: #d6d6c2;
+  opacity: 0.98;
+  margin: auto;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+.cartHeader{
+  background: url('cart1.jpeg');
+  height: 46vh;
+  background-size: cover;
+  background-position: center;
+  border: 8px solid black;
+  border-style: outset;
+}
+.cartHead1{
+  margin: 50px;
+  width: 25%;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-width: thick;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.cartHead1 p{
+  margin: 5%;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 40px;
+}
+
 .shopping-cart {
   float: left;
   width: 47.7%;
@@ -49,7 +81,9 @@
 .quantity {
   padding-top: 10px;
   margin-right: 50px;
-  margin-left: 50px;
+  margin-top: 5%;
+  margin-left: 15%;
+  position: absolute;
 }
 .quantity input {
   -webkit-appearance: none;
@@ -132,11 +166,7 @@ button:focus,input:focus {
   transition: all 0.4s ease 0s;
   cursor: pointer;
 }
-.receipt{
-  background-color: #FFE4C4;
-  border-radius: 20px;
-  margin: auto;
-}
+
 /* popup css */
 .popup-overlay{
   /*Hides pop-up when there is no "active" class*/
@@ -152,7 +182,7 @@ button:focus,input:focus {
   /*displays pop-up when "active" class is present*/
   visibility:visible;
   text-align:center;
-  background-color: #DC143C;
+  background-color: #BDB76B;
 }
 .popup-content {
   /*Hides pop-up content when there is no "active" class */
@@ -160,7 +190,7 @@ button:focus,input:focus {
 }
 .popup-content.active {
   /*Shows pop-up content when "active" class is present */
-  background-color: #E9967A;
+  background-color: #EEE8AA;
   visibility:visible;
 }
 .close{
