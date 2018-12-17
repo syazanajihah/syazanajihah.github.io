@@ -8,7 +8,7 @@ function closeForm() {
 
 if(form.email.value == "evan98@gmail.com" && form.password.value == "evanpatrick")
   {
-    window.open('index.html')/*opens the target page while Id & password matches*/
+    window.open('homepage.html')/*opens the target page while Id & password matches*/
   }
  else
  {
