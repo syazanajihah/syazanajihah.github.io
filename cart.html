@@ -620,30 +620,32 @@
 
       <hr>
       <hr>
-      <h2 id="textOrder">List of Orders</h2>
-        <table cellpadding="4" cellspacing="4" border="1" id="orderedProductsTbl">
-          <thead>
-            <tr>
-              <td>Name</td>
-              <td>Description</td>
-              <td>Price</td>
-            </tr>
-          </thead>
-        <tbody id="orderedProductsTblBody"></tbody>
-        <tfoot>
-            <tr>
-              <td colspan="3" align="right" id="showcart"></td>
-            </tr>
-        </tfoot>
-        <div class="popup-overlay">
-          <div class="popup-content">
-            <h2>Total Price</h2>
-            <p id="totalprice"></p>
-            <button class="close">Close</button>
+      <div class="receipt">
+        <h2 id="textOrder">List of Orders</h2>
+          <table cellpadding="4" cellspacing="4" border="1" id="orderedProductsTbl">
+            <thead>
+              <tr>
+                <td>Name</td>
+                <td>Description</td>
+                <td>Price</td>
+              </tr>
+            </thead>
+          <tbody id="orderedProductsTblBody"></tbody>
+          <tfoot>
+              <tr>
+                <td colspan="3" align="right" id="showcart"></td>
+              </tr>
+          </tfoot>
+          <div class="popup-overlay">
+            <div class="popup-content">
+              <h2>Total Price</h2>
+              <p id="totalprice"></p>
+              <button class="close">Close</button>
+            </div>
           </div>
-        </div>
-        <button id="checkout" type="submit" value="Checkout">Checkout</button>
-      </table>
+          <button id="checkout" type="submit" value="Checkout">Checkout</button>
+        </table>
+      </div>
 </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
