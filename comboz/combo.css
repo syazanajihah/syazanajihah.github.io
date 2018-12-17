@@ -94,7 +94,7 @@
   opacity: 5;
 }
 /* Clear floats */
-.container3::after, .rowpizza::after {
+.container3::after, .rowcombo::after {
     content: "";
     clear: both;
     display: table;
