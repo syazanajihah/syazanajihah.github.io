@@ -17,13 +17,13 @@
   width: 47.7%;
   padding: 5px;
   margin: 10px 10px 15px 10px;
+  margin-left: 1%;
   /* margin: 80px auto; */
   background: #FFFFFF;
   box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
   border-radius: 6px;
   display: flex;
   flex-direction: column;
-
 }
 .title {
   height: 60px;
@@ -110,7 +110,7 @@ button:focus,input:focus {
     justify-content: center;
   }
   .image img {
-    width: 50%;
+    width: 30%;
   }
   .image, .quantity, .description {
     width: 100%;
@@ -118,12 +118,12 @@ button:focus,input:focus {
     margin: 6px 0;
   }
 }
+#textOrder{text-align: center;}
 #orderedProductsTbl{
   background-color: #B0C4DE;
   margin-left: 36.8%;
   margin-bottom: 5%;
 }
-
 #checkout{margin-left: 88%; margin-top: 3%;}
 #checkout{
   color: #494949 ;
