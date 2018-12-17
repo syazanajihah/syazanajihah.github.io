@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="first.css">
+    <meta charset="utf-8">
+    <title>K'LatePizza</title>
+  </head>
+  <body>
+    <div class="bg-image img1"></div>
+    <div class="bg-image img2"></div>
+    <div class="bg-image img3"></div>
+
+    <div class="row">
+      <form>
+
+        <div class="container">
+          <p>Sign in with
+            <a href="https://www.gmail.com/">
+              <img src="gmail.png" width="50" height="50">
+            </a>
+            <a href="https://www.facebook.com/">
+              <img src="facebook.png" width="50" height="50">
+            </a>
+          </p>
+          <div class="or">
+            <p>------------------------------ OR ------------------------------</p>
+          </div>
+
+
+          <div>
+            <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="password"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="password" required>
+
+
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+
+            <button type="submit"><a href="#"></a>Login</button>
+          </div>
+
+          <div class="" style="background-color:#f1f1f1">
+            <!-- <button type="button" class="cancelbtn">Cancel</button> -->
+            <span class="password"><a href="#">Forgot password</a></span>
+          </div>
+        </div>
+      </form>
+
+    <!-- Sign up -->
+        <div class="container">
+          <div class="contentright">
+            <p>New user?</p>
+           <button type="button" class="signupbtn" onclick="openForm()">Sign Up Now</button>
+          </div>
+        </div>
+    </div>
+
+    <div class="form-popup" id="myForm">
+      <form action="action_page.php" style="border: 1px solid #ccc" class="C">
+        <div class="container10">
+          <h1>Sign Up</h1>
+          <p>Create your personal account</p>
+          <hr>
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+
+          <label for="fname"><b>First Name</b></label>
+          <input type="text" placeholder="Enter First Name" name="fname" required>
+
+          <label for="lname"><b>Last Name</b></label>
+          <input type="text" placeholder="Enter Last Name" name="lname" required>
+
+          <label for="contact"><b>Contact No</b></label>
+          <input type="text" placeholder="Enter Contact No" name="contact" required>
+
+          <label for="password"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="password" required>
+
+          <label for="passreenter"><b>Re-enter Password</b></label>
+          <input type="password" placeholder="Re-enter Password" name="passreenter" required>
+
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Conditions</a>.</p>
+
+          <div class="clearfix">
+            <button type="button" class="cancelbtn" onclick="closeForm()">Cancel</button>
+            <button type="submit" class="signupbtn"><a href="#"></a>Sign Up</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="first.js" charset="utf-8"></script>
+  </body>
+</html>
