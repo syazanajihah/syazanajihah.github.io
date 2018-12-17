@@ -83,7 +83,7 @@ button:hover {
   position: fixed;
   transform: translate(-50%, -50%);
   z-index: 2;
-  top: 50%;
+  top: 70%;
   left: 50%;
   background-color: white;
   width: 75%;
@@ -191,6 +191,7 @@ span.password {
   text-align: center;
   color: white;
 }
+
 .site-heading-upper {
   display: block;
   font-size: 3rem;
