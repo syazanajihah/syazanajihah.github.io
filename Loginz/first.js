@@ -6,9 +6,11 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 
-if(form.email.value == "evan98@gmail.com" && form.password.value == "evanpatrick")
+function check(form)/*function to check userid & password*/
+{
+ if(form.email.value == "evan98@gmail.com" && form.password.value == "evanpatrick")
   {
-    window.open('homepage.html')/*opens the target page while Id & password matches*/
+    window.open('homepage.html')
   }
  else
  {
