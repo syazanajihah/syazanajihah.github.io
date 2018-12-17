@@ -43,402 +43,555 @@
     </center>
     </header>
 
-    <!-- Row 1 -->
-    <div class="row">
+    <div class="tabcontent">
+      <div class="cartHeader">
+        <div class="cartHead1">
+          <p>Add To Cart</p>
+        </div>
+      </div>
+      <!-- Row 1 -->
+      <div class="row">
 
-      <!-- Column 1 -->
+        <!-- Column 1 -->
+          <div class="shopping-cart">
+            <div class="title">
+              Add to Your Cart (PIZZA)
+            </div>
+
+            <!-- Pizza 1 -->
+          <div class="item">
+            <div class="image">
+              <img src="pizzaz/pizza1.jpeg" alt="" >
+            </div>
+            <div class="description">
+              <span>Pepperoni</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Pepperoni','Pizza',18.00)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 18.00</div>
+          </div>
+
+          <!-- Pizza 2 -->
+          <div class="item">
+            <div class="image">
+              <img src="pizzaz/pizza6.jpeg" alt="">
+            </div>
+            <div class="description">
+              <span>Meat Mania</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Meat-mania','Pizza',28.00)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 28.00</div>
+          </div>
+
+          <!-- Pizza 3 -->
+          <div class="item">
+            <div class="image">
+              <img src="pizzaz/pizza9.jpeg" alt="" >
+            </div>
+            <div class="description">
+              <span>Meatasaurus</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Meatsaurus','Pizza',25.00)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 25.00</div>
+          </div>
+
+          <!-- Pizza 4 -->
+          <div class="item">
+            <div class="image">
+              <img src="pizzaz/pizza2.jpeg" alt="" >
+            </div>
+            <div class="description">
+              <span>Extravaganza</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Extravaganza','Pizza',22.00)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 22.00</div>
+          </div>
+
+          <!-- Pizza 5 -->
+          <div class="item">
+            <div class="image">
+              <img src="pizzaz/pizza8.jpeg" alt="" >
+            </div>
+            <div class="description">
+              <span>Vegie Galore</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Vegie Galore','Pizza',18.00)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 18.00</div>
+          </div>
+
+          <!-- Pizza 6 -->
+          <div class="item">
+            <div class="image">
+              <img src="pizzaz/pizza7.jpeg" alt="" >
+            </div>
+            <div class="description">
+              <span>Baked Perfection</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Baked-Perfection','Pizza',20.00)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 20.00</div>
+          </div>
+
+          <!-- Empty Spaces to tally with beverage column size -->
+          <div class="item">
+            <div class="image">
+              <img src="" alt="" >
+            </div>
+            <div class="description">
+            </div>
+            <div class="quantity">
+            </div>
+            <div class="total-price"></div>
+          </div>
+
+          <div class="item">
+            <div class="image">
+              <img src="" alt="" >
+            </div>
+            <div class="description">
+            </div>
+            <div class="quantity">
+            </div>
+            <div class="total-price"></div>
+          </div>
+
+          <div class="item">
+            <div class="image">
+              <img src="" alt="" >
+            </div>
+            <div class="description">
+            </div>
+            <div class="quantity">
+
+            </div>
+            <div class="total-price"></div>
+          </div>
+
+        </div>
+
+        <!-- Column 2 -->
         <div class="shopping-cart">
           <div class="title">
-            Add to Your Cart (PIZZA)
+            Add to Your Cart (BEVERAGES)
           </div>
 
-          <!-- Pizza 1 -->
-        <div class="item">
-          <div class="image">
-            <img src="pizzaz/pizza1.jpeg" alt="" >
+          <!-- Bottle -->
+          <!-- Drink 1 -->
+          <div class="item">
+            <div class="image">
+              <img src="beveragez/drink15.jpg" alt="" >
+            </div>
+            <div class="description">
+              <span>Mineral Water</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Mineral Water','Beverage',3.50)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 3.50</div>
           </div>
-          <div class="description">
-            <span>Pepperoni</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Pepperoni','Pizza',18.00)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 18.00</div>
-        </div>
 
-        <!-- Pizza 2 -->
-        <div class="item">
-          <div class="image">
-            <img src="pizzaz/pizza6.jpeg" alt="">
+          <!-- Drink 2 -->
+          <div class="item">
+            <div class="image">
+              <img src="beveragez/drink6.png" alt="" >
+            </div>
+            <div class="description">
+              <span>Pepsi (Bottle)</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Pepsi','Beverage',4.00)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 4.00</div>
           </div>
-          <div class="description">
-            <span>Meat Mania</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Meat-mania','Pizza',28.00)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 28.00</div>
-        </div>
 
-        <!-- Pizza 3 -->
-        <div class="item">
-          <div class="image">
-            <img src="pizzaz/pizza9.jpeg" alt="" >
+          <!-- Drink 3 -->
+          <div class="item">
+            <div class="image">
+              <img src="beveragez/drink7.jpg" alt="">
+            </div>
+            <div class="description">
+              <span>F&N Ice Cream Soda (Bottle)</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('F&N Ice Cream Soda','Beverage',3.80)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 3.80</div>
           </div>
-          <div class="description">
-            <span>Meatasaurus</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Meatsaurus','Pizza',25.00)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 25.00</div>
-        </div>
 
-        <!-- Pizza 4 -->
-        <div class="item">
-          <div class="image">
-            <img src="pizzaz/pizza2.jpeg" alt="" >
+          <!-- Drink 4 -->
+          <div class="item">
+            <div class="image">
+              <img src="beveragez/drink8.jpg" alt="" >
+            </div>
+            <div class="description">
+              <span>F&N Orange (Bottle)</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('F&N Orange','Beverage',3.80)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 3.80</div>
           </div>
-          <div class="description">
-            <span>Extravaganza</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Extravaganza','Pizza',22.00)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 22.00</div>
-        </div>
 
-        <!-- Pizza 5 -->
-        <div class="item">
-          <div class="image">
-            <img src="pizzaz/pizza8.jpeg" alt="" >
+          <!-- Can -->
+          <!-- Drink 5 -->
+          <div class="item">
+            <div class="image">
+              <img src="beveragez/drink10.jpg" alt="" >
+            </div>
+            <div class="description">
+              <span>Sprite (Can)</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Sprite','Beverage',2.00)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 2.00</div>
           </div>
-          <div class="description">
-            <span>Vegie Galore</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Vegie Galore','Pizza',18.00)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 18.00</div>
-        </div>
 
-        <!-- Pizza 6 -->
-        <div class="item">
-          <div class="image">
-            <img src="pizzaz/pizza7.jpeg" alt="" >
+          <!-- Drink 6 -->
+          <div class="item">
+            <div class="image">
+              <img src="beveragez/drink11.jpg" alt="" >
+            </div>
+            <div class="description">
+              <span>Pepsi (Can)</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Pepsi','Beverage',2.50)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 2.50</div>
           </div>
-          <div class="description">
-            <span>Baked Perfection</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Baked-Perfection','Pizza',20.00)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 20.00</div>
-        </div>
 
-        <!-- Empty Spaces to tally with beverage column size -->
-        <div class="item">
-          <div class="image">
-            <img src="" alt="" >
+          <!-- Drink 7 -->
+          <div class="item">
+            <div class="image">
+              <img src="beveragez/drink13.jpg" alt="" >
+            </div>
+            <div class="description">
+              <span>F&N Strawberry (Can)</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('F&N Strawberry','Beverage',2.10)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 2.10</div>
           </div>
-          <div class="description">
-          </div>
-          <div class="quantity">
-          </div>
-          <div class="total-price"></div>
-        </div>
 
-        <div class="item">
-          <div class="image">
-            <img src="" alt="" >
+          <!-- Drink 8 -->
+          <div class="item">
+            <div class="image">
+              <img src="beveragez/drink12.jpg" alt="" >
+            </div>
+            <div class="description">
+              <span>F&N Ice Cream Soda (Can)</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('F&N Ice Cream Soda','Beverage',2.10)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 2.10</div>
           </div>
-          <div class="description">
-          </div>
-          <div class="quantity">
-          </div>
-          <div class="total-price"></div>
-        </div>
 
-        <div class="item">
-          <div class="image">
-            <img src="" alt="" >
+          <!-- Drink 9 -->
+          <div class="item">
+            <div class="image">
+              <img src="beveragez/drink14.jpg" alt="" >
+            </div>
+            <div class="description">
+              <span>F&N Orange (Can)</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('F&N Orange','Beverage',2.10)">
+                <img src="plus.png" alt="">
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="">
+              </button>
+            </div>
+            <div class="total-price">RM 2.10</div>
           </div>
-          <div class="description">
-          </div>
-          <div class="quantity">
 
           </div>
-          <div class="total-price"></div>
-        </div>
 
       </div>
 
-      <!-- Column 2 -->
-      <div class="shopping-cart">
-        <div class="title">
-          Add to Your Cart (BEVERAGES)
-        </div>
+      <!-- Row 2 -->
+      <div class="row">
+        <!-- Column 1 -->
+          <div class="shopping-cart">
+            <div class="title">
+              Add to Your Cart (SIDE ORDERS)
+            </div>
 
-        <!-- Bottle -->
-        <!-- Drink 1 -->
-        <div class="item">
-          <div class="image">
-            <img src="beveragez/drink15.jpg" alt="" >
-          </div>
-          <div class="description">
-            <span>Mineral Water</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Mineral Water','Beverage',3.50)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 3.50</div>
-        </div>
+            <!-- Side Order 1 -->
+            <div class="item">
+              <div class="image">
+                <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&h=350" alt="" >
+              </div>
+              <div class="description">
+                <span>Shawarma</span>
+              </div>
+              <div class="quantity">
+                <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Shawarma','Side Order',10.50)">
+                  <img src="plus.png" alt="">
+                </button>
+                <input type="text" name="name" value="0">
+                <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                  <img src="minus.png" alt="" />
+                </button>
+              </div>
+              <div class="total-price">RM 10.50</div>
+            </div>
 
-        <!-- Drink 2 -->
-        <div class="item">
-          <div class="image">
-            <img src="beveragez/drink6.png" alt="" >
-          </div>
-          <div class="description">
-            <span>Pepsi (Bottle)</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Pepsi','Beverage',4.00)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 4.00</div>
-        </div>
+             <!-- Side Order 2 -->
+            <div class="item">
+              <div class="image">
+                <img src="https://images.pexels.com/photos/263070/pexels-photo-263070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+              </div>
+              <div class="description">
+                <span>Chicken Roll</span>
+              </div>
+              <div class="quantity">
+                <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Chicken Roll','Side Order',12.00)">
+                  <img src="plus.png" alt="">
+                </button>
+                <input type="text" name="name" value="0">
+                <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                  <img src="minus.png" alt="">
+                </button>
+              </div>
+              <div class="total-price">RM 12.00</div>
+            </div>
 
-        <!-- Drink 3 -->
-        <div class="item">
-          <div class="image">
-            <img src="beveragez/drink7.jpg" alt="">
-          </div>
-          <div class="description">
-            <span>F&N Ice Cream Soda (Bottle)</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('F&N Ice Cream Soda','Beverage',3.80)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 3.80</div>
-        </div>
+            <!-- Side Order 3 -->
+            <div class="item">
+              <div class="image">
+                <img src="https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" >
+              </div>
+              <div class="description">
+                <span>Macaroni Carbonara</span>
+              </div>
+              <div class="quantity">
+                <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Macaroni Carbonara','Side Order',15.00)">
+                  <img src="plus.png" alt="">
+                </button>
+                <input type="text" name="name" value="0">
+                <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                  <img src="minus.png" alt="">
+                </button>
+              </div>
+              <div class="total-price">RM 15.00</div>
+            </div>
 
-        <!-- Drink 4 -->
-        <div class="item">
-          <div class="image">
-            <img src="beveragez/drink8.jpg" alt="" >
-          </div>
-          <div class="description">
-            <span>F&N Orange (Bottle)</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('F&N Orange','Beverage',3.80)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 3.80</div>
-        </div>
+            <!-- Side Order 4 -->
+            <div class="item">
+              <div class="image">
+                <img src="https://images.pexels.com/photos/52539/cream-puffs-delicious-france-confectionery-food-52539.jpeg?auto=compress&cs=tinysrgb&h=350" alt="" >
+              </div>
+              <div class="description">
+                <span>Loaded Cream Puff</span>
+              </div>
+              <div class="quantity">
+                <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Loaded Cream Puff','Side Order',9.00)">
+                  <img src="plus.png" alt="">
+                </button>
+                <input type="text" name="name" value="0">
+                <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                  <img src="minus.png" alt="">
+                </button>
+              </div>
+              <div class="total-price">RM 9.00</div>
+            </div>
 
-        <!-- Can -->
-        <!-- Drink 5 -->
-        <div class="item">
-          <div class="image">
-            <img src="beveragez/drink10.jpg" alt="" >
+            <!-- Side Order 5 -->
+            <div class="item">
+              <div class="image">
+                <img src="https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?auto=compress&cs=tinysrgb&h=350" alt="" >
+              </div>
+              <div class="description">
+                <span>Butter Cookie Cake</span>
+              </div>
+              <div class="quantity">
+                <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Butter Cookie Cake','Side Order',12.00)">
+                  <img src="plus.png" alt="">
+                </button>
+                <input type="text" name="name" value="0">
+                <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                  <img src="minus.png" alt="">
+                </button>
+              </div>
+              <div class="total-price">RM 12.00</div>
+            </div>
           </div>
-          <div class="description">
-            <span>Sprite (Can)</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Sprite','Beverage',2.00)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 2.00</div>
-        </div>
 
-        <!-- Drink 6 -->
-        <div class="item">
-          <div class="image">
-            <img src="beveragez/drink11.jpg" alt="" >
-          </div>
-          <div class="description">
-            <span>Pepsi (Can)</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Pepsi','Beverage',2.50)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 2.50</div>
-        </div>
-
-        <!-- Drink 7 -->
-        <div class="item">
-          <div class="image">
-            <img src="beveragez/drink13.jpg" alt="" >
-          </div>
-          <div class="description">
-            <span>F&N Strawberry (Can)</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('F&N Strawberry','Beverage',2.10)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 2.10</div>
-        </div>
-
-        <!-- Drink 8 -->
-        <div class="item">
-          <div class="image">
-            <img src="beveragez/drink12.jpg" alt="" >
-          </div>
-          <div class="description">
-            <span>F&N Ice Cream Soda (Can)</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('F&N Ice Cream Soda','Beverage',2.10)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 2.10</div>
-        </div>
-
-        <!-- Drink 9 -->
-        <div class="item">
-          <div class="image">
-            <img src="beveragez/drink14.jpg" alt="" >
-          </div>
-          <div class="description">
-            <span>F&N Orange (Can)</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('F&N Orange','Beverage',2.10)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 2.10</div>
-        </div>
-
-        </div>
-
-    </div>
-
-    <!-- Row 2 -->
-    <div class="row">
-      <!-- Column 1 -->
+          <!-- Column 2 -->
         <div class="shopping-cart">
           <div class="title">
-            Add to Your Cart (SIDE ORDERS)
+            Add to Your Cart (COMBO)
           </div>
 
-          <!-- Side Order 1 -->
+          <!-- Combo 1 -->
           <div class="item">
             <div class="image">
-              <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&h=350" alt="" >
+              <img src="combo1.jpg" alt="">
             </div>
             <div class="description">
-              <span>Shawarma</span>
+              <span>Combo 1 (2 Pizza)</span>
             </div>
             <div class="quantity">
-              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Shawarma','Side Order',10.50)">
-                <img src="plus.png" alt="">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Combo 1','Combo',40.00)">
+                <img src="plus.png" alt="" />
               </button>
               <input type="text" name="name" value="0">
               <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
                 <img src="minus.png" alt="" />
               </button>
             </div>
-            <div class="total-price">RM 10.50</div>
+            <div class="total-price">RM 40.00</div>
           </div>
 
-           <!-- Side Order 2 -->
+          <!-- Combo 2 -->
           <div class="item">
             <div class="image">
-              <img src="https://images.pexels.com/photos/263070/pexels-photo-263070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+              <img src="combo2.jpg" alt="" >
             </div>
             <div class="description">
-              <span>Chicken Roll</span>
+              <span>Combo 2 (1 Pizza, 1 Side order)</span>
             </div>
             <div class="quantity">
-              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Chicken Roll','Side Order',12.00)">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Combo 2','Combo',38.00)">
+                <img src="plus.png" alt="" />
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="" />
+              </button>
+            </div>
+            <div class="total-price">RM 38.00</div>
+          </div>
+
+          <!-- Combo 3 -->
+          <div class="item">
+            <div class="image">
+              <img src="combo3.jpg" alt="" >
+            </div>
+            <div class="description">
+              <span>Combo 3 (1 Pizza, 1 Beverage)</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Combo 3','Combo',30.00)">
+                <img src="plus.png" alt="" />
+              </button>
+              <input type="text" name="name" value="0">
+              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
+                <img src="minus.png" alt="" />
+              </button>
+            </div>
+            <div class="total-price">RM 30.00</div>
+          </div>
+
+          <!-- Combo 4 -->
+          <div class="item">
+            <div class="image">
+              <img src="combo4.jpg" alt="" >
+            </div>
+            <div class="description">
+              <span>Combo 4(1 Side Order, 1 Beverage)</span>
+            </div>
+            <div class="quantity">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Combo 4','Combo',18.00)">
                 <img src="plus.png" alt="">
               </button>
               <input type="text" name="name" value="0">
@@ -446,208 +599,62 @@
                 <img src="minus.png" alt="">
               </button>
             </div>
-            <div class="total-price">RM 12.00</div>
+            <div class="total-price">RM 18.00</div>
           </div>
 
-          <!-- Side Order 3 -->
+          <!-- Combo 5 -->
           <div class="item">
             <div class="image">
-              <img src="https://images.pexels.com/photos/1438672/pexels-photo-1438672.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" >
+              <img src="combo5.jpg" alt="" >
             </div>
             <div class="description">
-              <span>Macaroni Carbonara</span>
+              <span>Combo 5 (1 Pizza, 1 Side Order, 1 Beverage)</span>
             </div>
             <div class="quantity">
-              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Macaroni Carbonara','Side Order',15.00)">
-                <img src="plus.png" alt="">
+              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Combo 5','Combo',58.00)">
+                <img src="plus.png" alt="" />
               </button>
               <input type="text" name="name" value="0">
               <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-                <img src="minus.png" alt="">
+                <img src="minus.png" alt="" />
               </button>
             </div>
-            <div class="total-price">RM 15.00</div>
+            <div class="total-price">RM 58.00</div>
           </div>
 
-          <!-- Side Order 4 -->
-          <div class="item">
-            <div class="image">
-              <img src="https://images.pexels.com/photos/52539/cream-puffs-delicious-france-confectionery-food-52539.jpeg?auto=compress&cs=tinysrgb&h=350" alt="" >
-            </div>
-            <div class="description">
-              <span>Loaded Cream Puff</span>
-            </div>
-            <div class="quantity">
-              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Loaded Cream Puff','Side Order',9.00)">
-                <img src="plus.png" alt="">
-              </button>
-              <input type="text" name="name" value="0">
-              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-                <img src="minus.png" alt="">
-              </button>
-            </div>
-            <div class="total-price">RM 9.00</div>
-          </div>
-
-          <!-- Side Order 5 -->
-          <div class="item">
-            <div class="image">
-              <img src="https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?auto=compress&cs=tinysrgb&h=350" alt="" >
-            </div>
-            <div class="description">
-              <span>Butter Cookie Cake</span>
-            </div>
-            <div class="quantity">
-              <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Butter Cookie Cake','Side Order',12.00)">
-                <img src="plus.png" alt="">
-              </button>
-              <input type="text" name="name" value="0">
-              <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-                <img src="minus.png" alt="">
-              </button>
-            </div>
-            <div class="total-price">RM 12.00</div>
-          </div>
         </div>
 
-        <!-- Column 2 -->
-      <div class="shopping-cart">
-        <div class="title">
-          Add to Your Cart (COMBO)
-        </div>
-
-        <!-- Combo 1 -->
-        <div class="item">
-          <div class="image">
-            <img src="comboz/combo1.jpg" alt="">
-          </div>
-          <div class="description">
-            <span>Combo 1 (2 Pizza)</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Combo 1','Combo',40.00)">
-              <img src="plus.png" alt="" />
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="" />
-            </button>
-          </div>
-          <div class="total-price">RM 40.00</div>
-        </div>
-
-        <!-- Combo 2 -->
-        <div class="item">
-          <div class="image">
-            <img src="comboz/combo2.jpg" alt="" >
-          </div>
-          <div class="description">
-            <span>Combo 2 (1 Pizza, 1 Side order)</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Combo 2','Combo',38.00)">
-              <img src="plus.png" alt="" />
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="" />
-            </button>
-          </div>
-          <div class="total-price">RM 38.00</div>
-        </div>
-
-        <!-- Combo 3 -->
-        <div class="item">
-          <div class="image">
-            <img src="comboz/combo3.jpg" alt="" >
-          </div>
-          <div class="description">
-            <span>Combo 3 (1 Pizza, 1 Beverage)</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Combo 3','Combo',30.00)">
-              <img src="plus.png" alt="" />
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="" />
-            </button>
-          </div>
-          <div class="total-price">RM 30.00</div>
-        </div>
-
-        <!-- Combo 4 -->
-        <div class="item">
-          <div class="image">
-            <img src="comboz/combo4.jpg" alt="" >
-          </div>
-          <div class="description">
-            <span>Combo 4(1 Side Order, 1 Beverage)</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Combo 4','Combo',18.00)">
-              <img src="plus.png" alt="">
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="">
-            </button>
-          </div>
-          <div class="total-price">RM 18.00</div>
-        </div>
-
-        <!-- Combo 5 -->
-        <div class="item">
-          <div class="image">
-            <img src="comboz/combo5.jpg" alt="" >
-          </div>
-          <div class="description">
-            <span>Combo 5 (1 Pizza, 1 Side Order, 1 Beverage)</span>
-          </div>
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button" value="Add to cart" onclick="AddtoCart('Combo 5','Combo',58.00)">
-              <img src="plus.png" alt="" />
-            </button>
-            <input type="text" name="name" value="0">
-            <button class="minus-btn" type="button" name="button" value="Remove From Cart" onclick="RemoveFromCart()">
-              <img src="minus.png" alt="" />
-            </button>
-          </div>
-          <div class="total-price">RM 58.00</div>
+        <div class="receipt">
+          <h2 id="textOrder">List of Orders</h2>
+            <table cellpadding="4" cellspacing="4" border="1" id="orderedProductsTbl">
+              <thead>
+                <tr>
+                  <td>Name</td>
+                  <td>Description</td>
+                  <td>Price</td>
+                </tr>
+              </thead>
+            <tbody id="orderedProductsTblBody"></tbody>
+            <tfoot>
+                <tr>
+                  <td colspan="3" align="right" id="showcart"></td>
+                </tr>
+            </tfoot>
+            <div class="popup-overlay">
+              <div class="popup-content">
+                <h2>Total Price</h2>
+                <p id="totalprice"></p>
+                <p>Thank you for buying our products! Enjoy your meal.</p>
+                <button class="close">Close</button>
+              </div>
+            </div>
+            <button id="checkout" type="submit" value="Checkout">Checkout</button>
+          </table>
         </div>
 
       </div>
+    </div>
 
-      <hr>
-      <hr>
-      <div class="receipt">
-        <h2 id="textOrder">List of Orders</h2>
-          <table cellpadding="4" cellspacing="4" border="1" id="orderedProductsTbl">
-            <thead>
-              <tr>
-                <td>Name</td>
-                <td>Description</td>
-                <td>Price</td>
-              </tr>
-            </thead>
-          <tbody id="orderedProductsTblBody"></tbody>
-          <tfoot>
-              <tr>
-                <td colspan="3" align="right" id="showcart"></td>
-              </tr>
-          </tfoot>
-          <div class="popup-overlay">
-            <div class="popup-content">
-              <h2>Total Price</h2>
-              <p id="totalprice"></p>
-              <p>Thank you for buying our products! Enjoy your meal.</p>
-              <button class="close">Close</button>
-            </div>
-          </div>
-          <button id="checkout" type="submit" value="Checkout">Checkout</button>
-        </table>
-      </div>
-</div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="cartz/addtocart.js" charset="utf-8"></script>
