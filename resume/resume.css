@@ -94,7 +94,7 @@ body{
 .mySlides {display: none}
 .image {
   vertical-align: middle;
-  height:400px;
+  height:500px;
   width: 100%;
   border-radius: 10px;
 }
@@ -103,7 +103,7 @@ body{
 .slideshow-container {
   padding-top: 50px;
   max-width: 1000px;
-  height: 450px;
+  height: 5200px;
   position: relative;
   margin: auto;
 }
